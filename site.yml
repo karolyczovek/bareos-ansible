@@ -1,0 +1,27 @@
+---
+- hosts: all
+  gather_facts: yes
+  tasks:
+    - debug: var=ansible_fqdn verbosity=0
+
+- hosts: director:clients:storage
+  become: true
+  roles:
+    - common
+
+- hosts: director
+  become: true
+  roles:
+    - bareos-dir
+
+- hosts: clients
+  become: true
+  roles:
+    - bareos-client
+    - bareos-storage
+
+- hosts: storage
+  become: true
+  roles:
+    - bareos-storage
+

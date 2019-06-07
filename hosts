@@ -1,0 +1,21 @@
+[director]
+nun
+
+[storage]
+nun
+
+[clients]
+## DC1
+alef
+## DC2
+het
+## FILE1
+bet
+## FILE2
+tet
+## Webservers
+www
+www2
+enaplo
+e7naplo
+

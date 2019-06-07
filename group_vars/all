@@ -1,0 +1,12 @@
+bareos_version: 18.2
+director_password: J84vpVKw45L/P985VSlXNzgh/1MujmZ+fg35br/8c4IM
+client_password: teung7ug6riP5eilu1sheoz2jaish4raLah6Ish5Iyahz
+storage_password: dei7xu4weiH1iec2eDaeb2shasooV2OhLedu2foh2feir
+restricted_console_password: loow8fei7iu8autha7lep2uHaizui8foocugho6ohteizu7lau
+storage_location: /var/lib/bareos/storage
+
+storage_on_nfs: false
+storage1_nfs_host: 172.16.0.30
+storage2_nfs_host: 172.16.0.27
+storage1_nfs_path: /volume2/backup_bacula
+storage2_nfs_path: /volume1/backup
